@@ -1,10 +1,10 @@
 import { Costume, DifficultyConfig, DifficultyMode, MathProblem, Pilot, SectorConfig, StageRewardItem } from '../types/game';
 
 export const PILOT_AVATARS = {
-  bunny: '/src/assets/images/pilot_bunny_1792244638803.jpg',
-  kitten: '/src/assets/images/pilot_kitten_1792244640191.jpg',
-  puppy: '/src/assets/images/pilot_puppy_1792244641016.jpg',
-  nebulaBg: '/src/assets/images/cosmic_nebula_1792244641172.jpg',
+  bunny: new URL('../assets/images/pilot_bunny_1792244638803.jpg', import.meta.url).href,
+  kitten: new URL('../assets/images/pilot_kitten_1792244640191.jpg', import.meta.url).href,
+  puppy: new URL('../assets/images/pilot_puppy_1792244641016.jpg', import.meta.url).href,
+  nebulaBg: new URL('../assets/images/cosmic_nebula_1792244641172.jpg', import.meta.url).href,
 };
 
 export const DIFFICULTY_CONFIGS: Record<DifficultyMode, DifficultyConfig> = {
@@ -69,25 +69,25 @@ export const PILOTS: Pilot[] = [
 
 export const COSTUME_FULL_IMAGES: Record<string, string> = {
   // 🐰 Bibi Bunny (5 Costumes)
-  bunny_classic: '/src/assets/images/bunny_full_classic_1792251016879.jpg',
-  bunny_rainbow: '/src/assets/images/bunny_full_rainbow_1792251016930.jpg',
-  bunny_princess: '/src/assets/images/bunny_full_princess_1792251038230.jpg',
-  bunny_dino: '/src/assets/images/bunny_full_dino_1792251017487.jpg',
-  bunny_wizard: '/src/assets/images/bunny_full_wizard_1792251038449.jpg',
+  bunny_classic: new URL('../assets/images/bunny_full_classic_1792251016879.jpg', import.meta.url).href,
+  bunny_rainbow: new URL('../assets/images/bunny_full_rainbow_1792251016930.jpg', import.meta.url).href,
+  bunny_princess: new URL('../assets/images/bunny_full_princess_1792251038230.jpg', import.meta.url).href,
+  bunny_dino: new URL('../assets/images/bunny_full_dino_1792251017487.jpg', import.meta.url).href,
+  bunny_wizard: new URL('../assets/images/bunny_full_wizard_1792251038449.jpg', import.meta.url).href,
 
   // 🐱 Mimi Kitten (5 Costumes)
-  kitten_classic: '/src/assets/images/kitten_full_classic_1792251039196.jpg',
-  kitten_music: '/src/assets/images/kitten_full_music_1792251040042.jpg',
-  kitten_hero: '/src/assets/images/kitten_full_hero_1792251017312.jpg',
-  kitten_icecream: '/src/assets/images/kitten_full_icecream_1792251071228.jpg',
-  kitten_ninja: '/src/assets/images/kitten_full_ninja_1792251072549.jpg',
+  kitten_classic: new URL('../assets/images/kitten_full_classic_1792251039196.jpg', import.meta.url).href,
+  kitten_music: new URL('../assets/images/kitten_full_music_1792251040042.jpg', import.meta.url).href,
+  kitten_hero: new URL('../assets/images/kitten_full_hero_1792251017312.jpg', import.meta.url).href,
+  kitten_icecream: new URL('../assets/images/kitten_full_icecream_1792251071228.jpg', import.meta.url).href,
+  kitten_ninja: new URL('../assets/images/kitten_full_ninja_1792251072549.jpg', import.meta.url).href,
 
   // 🐶 Poko Pup (5 Costumes)
-  puppy_classic: '/src/assets/images/puppy_full_classic_1792251073402.jpg',
-  puppy_angel: '/src/assets/images/puppy_full_angel_1792251040037.jpg',
-  puppy_lion: '/src/assets/images/puppy_full_lion_1792251074114.jpg',
-  puppy_mecha: '/src/assets/images/puppy_full_mecha_1792251018069.jpg',
-  puppy_detective: '/src/assets/images/puppy_full_detective_1792251073194.jpg',
+  puppy_classic: new URL('../assets/images/puppy_full_classic_1792251073402.jpg', import.meta.url).href,
+  puppy_angel: new URL('../assets/images/puppy_full_angel_1792251040037.jpg', import.meta.url).href,
+  puppy_lion: new URL('../assets/images/puppy_full_lion_1792251074114.jpg', import.meta.url).href,
+  puppy_mecha: new URL('../assets/images/puppy_full_mecha_1792251018069.jpg', import.meta.url).href,
+  puppy_detective: new URL('../assets/images/puppy_full_detective_1792251073194.jpg', import.meta.url).href,
 };
 
 export const COSTUMES: Costume[] = [

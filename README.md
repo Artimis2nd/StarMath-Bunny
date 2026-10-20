@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Star Math Pilot - Cosmic Addition Shooter
+> เกมยานยิงอวกาศฝึกทักษะคณิตศาสตร์บวกเลข (+1 ถึง +10) ผสมผสานระบบ Roguelite, ตู้กาชาปองคอสตูมตัวละคร และเสียงดนตรีประกอบ 8-Bit Chiptune
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🌟 จุดเด่นของเกม
 
-View your app in AI Studio: https://ai.studio/apps/3a317e03-ac76-4eca-98c6-53e35a57427e
+- 🐰 **นักบินอวกาศน่ารัก 3 สไตล์**: น้องต่ายสายฟ้า (Bunny), น้องแมวเนบิวลา (Kitten), และน้องหมาสตาร์ไรเดอร์ (Puppy)
+- 👗 **ระบบกาชาปอง & ตู้เสื้อผ้าคอสตูม**: มีชุดนักรบเวทมนตร์, ซูเปอร์ฮีโร่, ชุดบินแอนิเมะญี่ปุ่น พร้อมสกิลช่วยตัดช้อยส์และพลังชีวิตโบนัส
+- 🪐 **10 ดวงดาว & บอสประจำด่าน**: ตะลุยด่านบวกเลข +1 ถึง +10 พร้อมฉากไคลแม็กซ์ยิงสแปมถล่มบอส 3 วินาที
+- 🎵 **ดนตรีประกอบ 8-Bit Chiptune**: เพลงสดใสแยกตามฉาก (เมนู, ต่อสู้, บอสไคลแม็กซ์, ฉลองชัยชนะ) เล่นผ่าน Web Audio API ไม่ต้องโหลดไฟล์ภายนอก
+- 📱 **รองรับการแสดงผล 2 โหมด**:
+  - **โหมดมือถือแนวตั้ง (Mobile Portrait)**: กระชับพอดี 1 จอ 100dvh ไม่ต้องเลื่อนจอ
+  - **โหมด PC แนวนอน (PC Landscape)**: กว้างขวาง 2 คอลัมน์ เล่นเต็มตาบนคอมพิวเตอร์
+  - ตรวจจับอัตโนมัติตามขนาดจอ พร้อมปุ่มสลับโหมดที่มุมจอ
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🌐 วิธีนำขึ้นเว็บผ่าน GitHub Pages (ฟรี 100%)
 
+โปรเจกต์นี้ตั้งค่าระบบ **GitHub Actions** สำหรับ Deploy ขึ้น GitHub Pages ให้อัตโนมัติแล้ว
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+👉 **อ่านคู่มือแบบละเอียดทีละสเต็ปได้ที่ [GITHUB_PAGES_SETUP.md](./GITHUB_PAGES_SETUP.md)**
+
+### สรุปคำสั่งสั้นๆ:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/<YOUR-USERNAME>/<YOUR-REPO-NAME>.git
+git push -u origin main
+```
+จากนั้นเข้าไปที่ Repository บน GitHub -> **Settings** -> **Pages** -> เปลี่ยน **Source** เป็น **GitHub Actions** รอ 1-2 นาทีก็เข้าเล่นผ่านเว็บได้ทันที!
+
+---
+
+## 💻 วิธีรันในเครื่อง (Local Development)
+
+```bash
+# ติดตั้ง dependencies
+npm install
+
+# รันโหมด Development
+npm run dev
+
+# ทดสอบคอมไพล์โปรดักชัน
+npm run build
+```
