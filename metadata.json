@@ -1,0 +1,8 @@
+{
+  "name": "StarMath Bunny - Cosmic Addition Shooter",
+  "description": "Fun kid-friendly space shooter game for practicing addition facts +1 to +10 with cute cosmic pilots, boss battles, and leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
